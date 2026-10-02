@@ -1,3 +1,11 @@
+turnkey-netinfo (1.1.1+keel2) trixie; urgency=medium
+
+  * Build-Depends: python3-setuptools, the build backend pyproject.toml
+    names (setuptools.build_meta); on a bare trixie the wheel build failed
+    without it.
+
+ -- Keel Linux maintainers <admin@keellinux.org>  Fri, 02 Oct 2026 17:19:04 +0000
+
 turnkey-netinfo (1.1.1+keel1) trixie; urgency=medium
 
   * Build for Keel Linux, Debian 13.
